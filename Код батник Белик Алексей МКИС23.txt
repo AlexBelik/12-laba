@@ -1,0 +1,4 @@
+@echo off
+wmic OS get Name,Version /format:list
+echo Infa OS
+pause>nul
